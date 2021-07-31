@@ -94,9 +94,10 @@ h2 {
           right:0;
       }
       .links__menu {
-        width: 50vh;
+        width: 30vh;
         padding-right: 2vh;
         align-items: flex-end;
+        height: 100vh;
       }
   }
   
