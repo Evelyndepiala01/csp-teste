@@ -30,7 +30,7 @@ a {
 }
 
 
-@media  (max-width: 500px) {
+@media  (max-width: 300px) {
     .box__btn {
         flex-wrap: wrap;
     }
@@ -49,7 +49,8 @@ a {
        margin-top: 2px;
       
     }
-    
+   
+
 }
 
 .container__box {
@@ -199,11 +200,6 @@ main {
     left: 0;
 }
 
-@media (max-width: 1080px) {
-    .card {
-        height: 250px;
-    }
-}
 
 
 .container {
@@ -214,6 +210,7 @@ main {
     height: 340px;
     padding-top: 15px;
     font-size: 14px; 
+    height: 90vh;
 }
 
 
@@ -227,6 +224,7 @@ main {
     position: relative;
     height: 220px;
     text-align: center; 
+   
 }
 
 .icons {
