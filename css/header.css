@@ -1,0 +1,103 @@
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #8EE5EE;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    color: #fff;
+}
+  
+  .menu ul li{
+    margin: 0 10px;
+  }
+
+.links__menu {
+    list-style: none;
+    /* background: #900; coloquei para mostrar o menu e no final  eu tirei*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+  }
+
+  .home {
+    background: #B0C4DE;
+    border: 2px;
+    padding: 4px;
+    border-radius: 2px;
+  }
+  
+  .menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+  }
+.link__icon {
+    color: #fff;
+}
+  .links:hover {
+      background: #FF4040;
+      border: 2px;
+      padding: 4px;
+      
+  }
+  
+/* menu responsivo */
+@media (max-width: 768px) {
+
+    header{
+      position: fixed;
+      top:0;
+      left: 0;
+      z-index: 10;
+    }
+  
+    /* fazer primeirop link-menu depois linha */
+    .linha{
+      width: 30px;
+      height: 3px;
+      background: #fff;
+      margin: 5px;
+    }
+  
+    nav{
+      /* por causa do posicionamento do menu sanduíche */
+      position: relative;
+    }
+  
+    .hamburguer{
+      position: absolute;
+      right:0;
+      top: -15px;
+      cursor: pointer;
+    }
+  
+    .links__menu{
+      position: fixed;
+      right:-100vw;
+      top: 10vh;
+      background: #8EE5EE;
+      height: 50vh;
+      flex-direction: column;
+      /* display: none; */
+      z-index: 2;
+      transition: 0.5s;
+    }
+  
+      .links__menu.open{
+          right:0;
+      }
+      .links__menu {
+        width: 50vh;
+        padding-right: 2vh;
+        align-items: flex-end;
+      }
+  }
+  
+ 
