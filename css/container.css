@@ -19,10 +19,10 @@
     position: relative;
     height: 220px;
     text-align: center; 
-}
-
-.icons {
     padding: 25px;
+}
+.icons {
+    padding: 15px;
 }
 
 .card p {
@@ -31,14 +31,6 @@
 
 .card.box h3 {
     padding: 10px;
-}
-
-.card:first-child button {
-    background: #FF4040;
-}
-
- .card:first-child i {
-    color: #FF4040;
 }
 
 .btn {
@@ -54,3 +46,19 @@
     bottom: -16px;
     width: 145px;   
 }
+
+.card:first-child button {
+    background: #FF4040;
+}
+
+.card:first-child i {
+    color: #FF4040;
+}
+
+/*.btn:hover {
+    background: #FF4040;
+}
+
+i.icons:hover {
+   color: #FF4040;
+}*/
