@@ -4,7 +4,7 @@
     justify-content: center;
     flex-wrap: wrap;
     background: #EEE9E9;  
-    height: 340px;
+    height: 500px;
     padding-top: 15px;
     font-size: 14px; 
     height: 90vh;
@@ -55,10 +55,10 @@
     color: #FF4040;
 }
 
-/*.btn:hover {
-    background: #FF4040;
+@media (max-width: 768px) {
+    .container {
+        flex-wrap: wrap;
+        height: 100%;
+        padding-top: 55px;
+    }
 }
-
-i.icons:hover {
-   color: #FF4040;
-}*/
